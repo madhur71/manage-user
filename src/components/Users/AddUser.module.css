@@ -1,0 +1,25 @@
+.body{
+    width: 100%;
+}
+.input form{
+    display: flex;
+    flex-direction: column;
+}
+.input form label{
+    font-weight: bolder;
+}
+.input form input{
+    margin: 0 0 10px 0;
+} 
+.input button{
+    width: fit-content;
+    padding: 0 10;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
